@@ -22,3 +22,15 @@ print('Printing dict:', name)
 
 # Printing the len() function
 print('Printing len() function:', len)
+
+# Separators and End Characters
+print("in", "Python", "programming", sep="-")  # Custom separator
+print("Hello", end="!!!\n")  # Custom end character
+print("World")
+
+#flush and file parameters of print() function
+import sys
+print("This is printed to standard output.", file=sys.stdout)
+print("This is printed to standard error.", file=sys.stderr)    
+print("This is printed immediately.", flush=True)
+
