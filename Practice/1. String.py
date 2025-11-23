@@ -66,6 +66,7 @@ message = greeting + ', ' + name + '. Welcome!'
 message2 = f'{greeting}, {name.upper()}. Welcome!'
 message3 = '{}, {}. Welcome!'.format(greeting, name.lower())
 
+# We can only concatenate strings with strings
 print(message3)
 print(message2)
 print(message)
