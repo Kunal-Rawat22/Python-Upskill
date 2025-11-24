@@ -61,6 +61,27 @@ print("Tuple 3:", tuple3)
 
 # Task 10
 print("\n------------Task 10------------\n")
+person = {"name": "Alice", "age": 30, "city": "New York"}
+print("Person Dictionary:", person)
+print("Age of the person:", person.get("age"))
+print("City of the person:", person['city'])
 
 # Task 11
 print("\n------------Task 11------------\n")
+person = {"name": "Alice", "age": 30, "city": "New York"}
+person.update({"gender": "M"})
+print("Updated Person Dictionary:", person)
+
+# Task 12
+print("\n------------Task 12------------\n")
+person.pop('city')
+print("Person Dictionary after removing city:", person)
+
+# Task 13
+print("\n------------Task 13------------\n")
+dict1 = {"a": 1, "b": 2}    
+dict2 = {"c": 3, "d": 4}
+dict3 = {**dict1, **dict2}
+print("Dictionary 1:", dict1)
+print("Dictionary 2:", dict2)
+print("Merged Dictionary:", dict3)
