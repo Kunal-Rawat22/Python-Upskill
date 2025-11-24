@@ -33,4 +33,3 @@ import sys
 print("This is printed to standard output.", file=sys.stdout)
 print("This is printed to standard error.", file=sys.stderr)    
 print("This is printed immediately.", flush=True)
-
