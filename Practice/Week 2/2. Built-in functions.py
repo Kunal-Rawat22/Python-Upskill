@@ -48,7 +48,7 @@ fruits = ['apple', 'banana', 'cherry']
 print("Fruits List:", fruits)
 for index, fruit in enumerate(fruits):
     print(f"Index {index}: {fruit}")
-    
+
 print("\nEnumerate with custom start index:")
 for index, fruit in enumerate(fruits, start=1):
     print(f"Index {index}: {fruit}")
