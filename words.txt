@@ -1,0 +1,2 @@
+This is the first sentence. Here is the second sentence, slightly longer than the first. The quick brown fox jumps over the lazy dog. Python programming is fun and educational. Practice makes perfect. Keep coding and learning every day.
+This is the second line sentence. Here is the second sentence, slightly longer than the first. The quick brown fox jumps over the lazy dog. Python programming is fun and educational. Practice makes perfect. Keep coding and learning every day.
